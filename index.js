@@ -1,10 +1,10 @@
 import express from "express";
 
 const app = express();
-// const PORT = 3000;
+const port = 3000;
 
-app.listen(3000, () => {
-    console.log("Server is runnig on port")
+app.listen(port, () => {
+    console.log("Server is runnig on port 3000")
 });
 
 app.get('/',(req,res) => {
